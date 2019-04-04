@@ -5,6 +5,6 @@ try:
     elif n < 0:
       print ('Negative')
     elif n == 0:
-      print ('Zero')
+      print ("Zero")
 except:
     print ('Invalid Input')

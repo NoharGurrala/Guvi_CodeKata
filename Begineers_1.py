@@ -4,7 +4,7 @@ try:
       print ('Positive')
     elif n < 0:
       print ('Negative')
-    else:
+    elif n == 0:
       print ('Zero')
 except:
     print ('Invalid Input')

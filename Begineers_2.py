@@ -1,7 +1,10 @@
 n = int(input())
+e="Even"
+o="Odd"
+i="Invalid"
 if (n%2 == 0) and (n > 0):
-    print("Even")
+    print(e)
 elif (n > 0):
-    print('Odd')
+    print(o)
 else:
-    print('Invalid')
+    print(i)

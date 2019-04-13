@@ -1,3 +1,4 @@
+nu = input()
 na = raw_input()
 sta = []
 vowels = 'aeiouAEIOU'

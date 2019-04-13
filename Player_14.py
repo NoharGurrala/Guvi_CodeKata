@@ -1,0 +1,11 @@
+na = raw_input()
+sta = []
+vowels = 'aeiouAEIOU'
+for i in na:
+    if i not in vowels:
+        sta.append(i)
+fin = ''
+print sta
+for i in range(len(sta)):
+    fin = fin + sta.pop()
+print fin

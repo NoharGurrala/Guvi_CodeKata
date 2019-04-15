@@ -18,3 +18,5 @@ for i in range(0,l):
       print "no"
 if stack == []:
       print "yes"
+else:
+  print "no"

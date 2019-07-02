@@ -13,5 +13,5 @@ for i in range(0,m):
         array[j][i] = ar[j]
 for i in range(0,n):
     for j in range(0,m):
-        print array[i][j],
-    print''
+        strr = ' '.join(map(str,array[i]))
+    print strr

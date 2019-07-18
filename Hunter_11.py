@@ -1,5 +1,6 @@
 n = raw_input().split()
-ans = ''
+ans = []
 for i in range(len(n)):
-    ans = ans + n[i][::-1] + ' '
-print ans
+    ans.append(n[i][::-1])
+ansstr = ' '.join(map(str,ans))
+print ansstr

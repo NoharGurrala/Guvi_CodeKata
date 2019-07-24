@@ -1,8 +1,5 @@
 n = input()
-if(n % 2 == 0):
-    m = n/2
-else:
-    m = n/2+1
+m = n/2+1
 so = map(int,raw_input().split())
 ar = so
 ar.sort()
@@ -12,4 +9,6 @@ li = ar[:m]
 final = ''
 for i in range(m):
     final = final + str(fi[i]) + ' ' + str(li[i]) + ' '
+if(n%2 != 0):
+    final = final + str(fi[-1])
 print final

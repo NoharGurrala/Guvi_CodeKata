@@ -8,7 +8,7 @@ elif(n == 2):
 else:
     print i,j,
     for k in range(0,n-2):
-    s = i + j
-    print s,
-    i = j
-    j = s
+        s = i + j
+        print s,
+        i = j
+        j = s

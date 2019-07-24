@@ -1,5 +1,5 @@
 n = input()
-m = n/2+1
+m = n/2
 so = map(int,raw_input().split())
 ar = so
 ar.sort()
